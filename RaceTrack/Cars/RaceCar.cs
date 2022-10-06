@@ -4,8 +4,10 @@ namespace RaceTrack.RaceTrack.Cars
 {
     public abstract class RaceCar
     {
+
         protected RaceCar()
         {
+
             Position = 0;
         }
 
@@ -34,5 +36,7 @@ namespace RaceTrack.RaceTrack.Cars
         {
             Console.WriteLine($"The {Name} ends in position {Position}!");
         }
+
+       
     }
 }
